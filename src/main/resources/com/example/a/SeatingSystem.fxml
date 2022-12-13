@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="950.0" prefWidth="480.0" style="-fx-background-color: linear-gradient(to bottom,rgba(239,255,251,1) 0%, rgba(207,244,255,1) 58%, rgba(0,64,139,1) 100%);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.a.HelloController">
+   <children>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="31.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color1" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="50.0" layoutY="151.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="23.0" layoutY="234.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l1" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="243.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="189.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color2" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="208.0" layoutY="151.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="180.0" layoutY="234.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l2" alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="243.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="341.0" layoutY="138.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color3" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="361.0" layoutY="151.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="331.0" layoutY="234.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l3" alignment="CENTER" contentDisplay="TOP" layoutX="334.0" layoutY="242.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef" wrapText="true">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="31.0" layoutY="299.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color4" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="50.0" layoutY="311.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="21.0" layoutY="395.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l4" alignment="CENTER" contentDisplay="CENTER" layoutX="23.0" layoutY="404.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="189.0" layoutY="299.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color5" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="209.0" layoutY="311.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="182.0" layoutY="395.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l5" alignment="CENTER" contentDisplay="CENTER" layoutX="184.0" layoutY="403.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="341.0" layoutY="299.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color6" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="361.0" layoutY="311.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="331.0" layoutY="395.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l6" alignment="CENTER" contentDisplay="CENTER" layoutX="333.0" layoutY="403.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="31.0" layoutY="459.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color7" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="50.0" layoutY="472.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="22.0" layoutY="555.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l7" alignment="CENTER" contentDisplay="CENTER" layoutX="24.0" layoutY="565.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="189.0" layoutY="459.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color8" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="208.0" layoutY="472.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="180.0" layoutY="555.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l8" alignment="CENTER" contentDisplay="CENTER" layoutX="182.0" layoutY="564.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="90.0" layoutX="341.0" layoutY="459.0" stroke="BLACK" strokeType="INSIDE" width="105.0" />
+      <Rectangle fx:id="color9" arcHeight="50.0" arcWidth="50.0" fill="#b2ffe300" height="65.0" layoutX="360.0" layoutY="472.0" stroke="#3a3a3a" strokeType="INSIDE" width="65.0" />
+      <Rectangle arcHeight="50.0" arcWidth="50.0" height="38.0" layoutX="331.0" layoutY="555.0" stroke="#525252" width="123.0" />
+      <Label fx:id="l9" alignment="CENTER" contentDisplay="CENTER" layoutX="334.0" layoutY="562.0" prefHeight="20.0" prefWidth="120.0" textAlignment="CENTER" textFill="#efefef">
+         <font>
+            <Font name="DejaVu Sans Condensed Bold" size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="70.0" arcWidth="70.0" fill="#fc9400" height="55.0" layoutX="82.0" layoutY="44.0" stroke="#b6814c" strokeLineCap="BUTT" strokeType="INSIDE" strokeWidth="3.0" width="317.0" />
+      <Label layoutX="184.0" layoutY="54.0" text="TEACHER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputText" layoutX="209.0" layoutY="666.0" prefHeight="35.0" prefWidth="187.0" promptText="NAME" />
+      <ColorPicker fx:id="inputColor" layoutX="210.0" layoutY="724.0" prefHeight="35.0" prefWidth="187.0" />
+      <Label layoutX="31.0" layoutY="668.0" text="Student Name:" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="726.0" text="Student Color:" textFill="#ececec">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorLabel" layoutX="124.0" layoutY="623.0" prefHeight="25.0" prefWidth="348.0" textFill="#ff4040">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="136.0" layoutY="802.0" mnemonicParsing="false" onAction="#submit" prefHeight="48.0" prefWidth="202.0" style="-fx-background-color: #460C68;" text="Button" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
